@@ -27,7 +27,8 @@ built on top
     seaborn . 
     json . 
     
-2. Run train.py to train the model 
+2. Run train.py to train the model .
     Example : python train.py -d '~/flowers/' -a 'vgg16' -u 4096 1000 500 -l 0.001 -e 1 -g 'N'
-3. Run predict.py to predict the name of an imag
+
+3. Run predict.py to predict the name of an imag . 
     Example: python predict.py -i "~/flowers/test/10/image_07090.jpg" -p "/path/to/imag_classifier/checkpoint" -c "checkpoint.pth" -K 5 -a "vgg16" -g "N"
